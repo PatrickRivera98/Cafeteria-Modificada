@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafeteria Miski</title>
+    <link rel="stylesheet" href="portada-Patrick/style.css">
+    <script src="portada-Patrick/script/code.js"></script>
+    <link rel="icon" href="portada-Patrick/imagenes/Logo de cafetería simple gris.png">
+    <link rel="stylesheet" href="portada-Patrick/script/bootstrap_min.css">
+    <script src="portada-Patrick/script/bootstrap_bundle_min.js"></script>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar Placeholder -->
+  <div id="navbar-placeholder"></div>
+
+  <div class="container my-4 main-content">
+
+  <!-- Título Principal con más contexto -->
+  <div class="hero-section text-center mb-5">
+    <div class="hero-content">
+      <div class="hero-badge">
+        <i class="fas fa-star"></i>
+        <span>Desde 2020</span>
+        <i class="fas fa-star"></i>
+      </div>
+      <img class="logo_titulo" src="portada-Patrick/imagenes/Logo de cafetería simple gris.png" alt="MISKI logo">
+      <h1 class="titulo">CAFETERÍA MISKI</h1>
+      <p class="subtitulo">Donde cada taza cuenta una historia</p>
+      <div class="hero-features">
+        <div class="feature-item">
+          <i class="fas fa-coffee"></i>
+          <span>100% Café Peruano</span>
+        </div>
+        <div class="feature-item">
+          <i class="fas fa-leaf"></i>
+          <span>Orgánico & Natural</span>
+        </div>
+        <div class="feature-item">
+          <i class="fas fa-heart"></i>
+          <span>Hecho con Amor</span>
+        </div>
+      </div>
+      <div class="hero-cta">
+        <button class="btn btn-hero-primary">
+          <i class="fas fa-mug-hot me-2"></i>Ver Menú
+        </button>
+        <button class="btn btn-hero-secondary">
+          <i class="fas fa-map-marker-alt me-2"></i>Visitanos
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sección de Bienvenida -->
+  <div class="welcome-section mb-5">
+    <div class="row align-items-center">
+      <div class="col-lg-6 mb-4 mb-lg-0">
+        <div class="welcome-content">
+          <h2 class="welcome-title">
+            <i class="fas fa-coffee text-warning me-2"></i>
+            Bienvenidos a Miski
+          </h2>
+          <p class="welcome-text">
+            En quechua, "Miski" significa <strong>"delicioso"</strong>, y ese es exactamente el sabor que queremos 
+            que experimentes en cada visita. Somos más que una cafetería; somos un espacio donde las tradiciones 
+            peruanas se encuentran con la innovación moderna.
+          </p>
+          <div class="welcome-stats">
+            <div class="stat-box">
+              <div class="stat-icon">
+                <i class="fas fa-users"></i>
+              </div>
+              <div class="stat-info">
+                <h4>1000+</h4>
+                <p>Clientes Felices</p>
+              </div>
+            </div>
+            <div class="stat-box">
+              <div class="stat-icon">
+                <i class="fas fa-award"></i>
+              </div>
+              <div class="stat-info">
+                <h4>5 Años</h4>
+                <p>De Experiencia</p>
+              </div>
+            </div>
+            <div class="stat-box">
+              <div class="stat-icon">
+                <i class="fas fa-seedling"></i>
+              </div>
+              <div class="stat-info">
+                <h4>100%</h4>
+                <p>Orgánico</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="welcome-image">
+          <img src="portada-Patrick/imagenes/cafeteria .jpeg" alt="Interior de Cafetería Miski" class="img-fluid rounded-custom">
+          <div class="image-overlay">
+            <div class="overlay-content">
+              <h5>Ambiente Acogedor</h5>
+              <p>El lugar perfecto para disfrutar</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Carrusel de productos estrella -->
+  <div class="row mb-5">
+    <div class="col-lg-8 offset-lg-2">
+      <div class="productos-destacados">
+        <h3 class="sub1">Nuestros Productos Estrella</h3>
+        <p class="descripcion-productos">Descubre nuestra selección especial de café y delicias</p>
+        <div id="carouselCafe" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="4000">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselCafe" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#carouselCafe" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carouselCafe" data-bs-slide-to="2"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="portada-Patrick/imagenes/taza comestible.jpeg" class="d-block w-100" alt="Taza comestible">
+              <div class="carousel-caption">
+                <h5>Taza Comestible</h5>
+                <p>Una experiencia única: disfruta tu café y come la taza</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="portada-Patrick/imagenes/frappe.jpeg" class="d-block w-100" alt="Frappe">
+              <div class="carousel-caption">
+                <h5>Frappé Especial</h5>
+                <p>Refrescante mezcla de café y cremosidad</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="portada-Patrick/imagenes/taza.jpeg" class="d-block w-100" alt="Taza decorada">
+              <div class="carousel-caption">
+                <h5>Café Artesanal</h5>
+                <p>Preparado con los mejores granos del Perú</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselCafe" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselCafe" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            <span class="visually-hidden">Siguiente</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Sección Origen del Café -->
+<div class="origen-section mb-5">
+  <div class="row">
+    <div class="col-12 text-center mb-4">
+      <h2 class="section-title">
+        <i class="fas fa-mountain text-success me-2"></i>
+        El Origen de Nuestro Café
+      </h2>
+      <p class="section-subtitle">Desde las montañas del Perú hasta tu taza</p>
+    </div>
+  </div>
+  <div class="row align-items-center">
+    <div class="col-lg-4 mb-4">
+      <div class="origen-card">
+        <div class="origen-icon">
+          <i class="fas fa-mountain"></i>
+        </div>
+        <h4>Altura Perfecta</h4>
+        <p>Cultivado entre 1,200 y 2,100 metros sobre el nivel del mar en las regiones de Cajamarca y Cusco.</p>
+      </div>
+    </div>
+    <div class="col-lg-4 mb-4">
+      <div class="origen-card">
+        <div class="origen-icon">
+          <i class="fas fa-hand-holding-heart"></i>
+        </div>
+        <h4>Comercio Justo</h4>
+        <p>Trabajamos directamente con agricultores locales, garantizando precios justos y sostenibilidad.</p>
+      </div>
+    </div>
+    <div class="col-lg-4 mb-4">
+      <div class="origen-card">
+        <div class="origen-icon">
+          <i class="fas fa-leaf"></i>
+        </div>
+        <h4>Proceso Natural</h4>
+        <p>Secado al sol, tostado artesanal y sin químicos artificiales para preservar su sabor auténtico.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Galería de productos mejorada -->
+<div class="row mb-5" id="contenido2">
+  <div class="col-12 text-center mb-5">
+    <h2 class="section-title">
+      <i class="fas fa-palette text-primary me-2"></i>
+      Nuestra Variedad Artesanal
+    </h2>
+    <p class="section-subtitle">Cada producto es una obra de arte culinaria</p>
+  </div>
+  
+  <!-- Primera fila -->
+  <div class="col-lg-4 col-md-6 mb-4">
+    <div class="producto-card-enhanced">
+      <div class="product-badge nuevo">Nuevo</div>
+      <img src="portada-Patrick/imagenes/lo ultimo.jpeg" class="product-image-uniform" alt="Lo último">
+      <div class="producto-overlay-enhanced">
+        <div class="product-rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <span>5.0</span>
+        </div>
+        <h5>Especialidad del Chef</h5>
+        <p>Innovación en cada bocado con ingredientes selectos y técnicas modernas</p>
+        <div class="product-price">S/ 18.00</div>
+        <button class="btn btn-product">
+          <i class="fas fa-plus me-2"></i>Agregar
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-4 col-md-6 mb-4">
+    <div class="producto-card-enhanced">
+      <div class="product-badge popular">Popular</div>
+      <img src="portada-Patrick/imagenes/preparacion .jpeg" class="product-image-uniform" alt="Preparación">
+      <div class="producto-overlay-enhanced">
+        <div class="product-rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <span>4.9</span>
+        </div>
+        <h5>Preparación Artesanal</h5>
+        <p>Cada detalle importa. Preparado con métodos tradicionales y amor</p>
+        <div class="product-price">S/ 15.00</div>
+        <button class="btn btn-product">
+          <i class="fas fa-plus me-2"></i>Agregar
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-4 col-md-6 mb-4">
+    <div class="producto-card-enhanced">
+      <div class="product-badge premium">Premium</div>
+      <img src="portada-Patrick/imagenes/Flaky, buttery, and filled with rich chocolate and….jpeg" class="product-image-uniform" alt="Dona">
+      <div class="producto-overlay-enhanced">
+        <div class="product-rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <span>4.8</span>
+        </div>
+        <h5>Delicias Dulces</h5>
+        <p>El complemento perfecto para tu café. Masa hojaldrada y chocolate belga</p>
+        <div class="product-price">S/ 12.00</div>
+        <button class="btn btn-product">
+          <i class="fas fa-plus me-2"></i>Agregar
+        </button>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Segunda fila -->
+  <div class="col-lg-4 col-md-6 mb-4">
+    <div class="producto-card-enhanced">
+      <div class="product-badge exclusivo">Exclusivo</div>
+      <img src="portada-Patrick/imagenes/taza comestible.jpeg" class="product-image-uniform" alt="Taza Comestible">
+      <div class="producto-overlay-enhanced">
+        <div class="product-rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <span>4.9</span>
+        </div>
+        <h5>Taza Comestible</h5>
+        <p>Una experiencia única e innovadora. Disfruta tu café y después come la taza</p>
+        <div class="product-price">S/ 22.00</div>
+        <button class="btn btn-product">
+          <i class="fas fa-plus me-2"></i>Agregar
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-4 col-md-6 mb-4">
+    <div class="producto-card-enhanced">
+      <div class="product-badge temporal">Temporada</div>
+      <img src="portada-Patrick/imagenes/frappe.jpeg" class="product-image-uniform" alt="Frappé">
+      <div class="producto-overlay-enhanced">
+        <div class="product-rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <span>4.7</span>
+        </div>
+        <h5>Frappé Especial</h5>
+        <p>Refrescante mezcla de café premium con crema batida y topping especial</p>
+        <div class="product-price">S/ 16.00</div>
+        <button class="btn btn-product">
+          <i class="fas fa-plus me-2"></i>Agregar
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-4 col-md-6 mb-4">
+    <div class="producto-card-enhanced">
+      <div class="product-badge artesanal">Artesanal</div>
+      <img src="portada-Patrick/imagenes/filtrado.jpeg" class="product-image-uniform" alt="Café Filtrado">
+      <div class="producto-overlay-enhanced">
+        <div class="product-rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <span>4.8</span>
+        </div>
+        <h5>Café Filtrado Premium</h5>
+        <p>Preparación manual con granos de altura, método pour-over que resalta sabores únicos</p>
+        <div class="product-price">S/ 14.00</div>
+        <button class="btn btn-product">
+          <i class="fas fa-plus me-2"></i>Agregar
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- Sección de descuentos mejorada -->
+  <div class="descuentos-section mb-5">
+    <div class="ofertas-header text-center mb-5">
+      <h2 class="section-title text-white">
+        <i class="fas fa-fire text-warning me-2"></i>
+        ¡Ofertas Especiales de Temporada!
+      </h2>
+      <p class="section-subtitle text-white">Aprovecha nuestros precios increíbles por tiempo limitado</p>
+      <div class="countdown-timer">
+        <div class="timer-item">
+          <span class="timer-number">05</span>
+          <span class="timer-label">Días</span>
+        </div>
+        <div class="timer-item">
+          <span class="timer-number">12</span>
+          <span class="timer-label">Horas</span>
+        </div>
+        <div class="timer-item">
+          <span class="timer-number">30</span>
+          <span class="timer-label">Min</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="row text-center">
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="producto-descuento-enhanced">
+          <div class="badge-descuento-enhanced oferta">
+            <i class="fas fa-percentage"></i>
+            ¡30% OFF!
+          </div>
+          <img src="portada-Patrick/imagenes/taza.jpeg" class="img-desc mb-3" alt="Producto 1">
+          <div class="product-info">
+            <h5 class="nombre-producto">Café Americano Premium</h5>
+            <div class="product-description">
+              <p>Granos selectos de Cusco, tostado medio, notas a chocolate y caramelo</p>
+            </div>
+            <div class="price-container">
+              <span class="precio-anterior">Antes: S/ 7.00</span>
+              <span class="precio-actual">Ahora: <strong>S/ 5.00</strong></span>
+              <span class="ahorro">Ahorras S/ 2.00</span>
+            </div>
+            <button class="btn btn-cafe-enhanced">
+              <i class="fas fa-shopping-cart me-2"></i>Ordenar Ahora
+            </button>
+            <div class="product-features">
+              <span class="feature-tag"><i class="fas fa-leaf me-1"></i>Orgánico</span>
+              <span class="feature-tag"><i class="fas fa-award me-1"></i>Premium</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="producto-descuento-enhanced bestseller">
+          <div class="badge-descuento-enhanced popular">
+            <i class="fas fa-crown"></i>
+            ¡Más Vendido!
+          </div>
+          <img src="portada-Patrick/imagenes/Craving something sweet and refreshing_ Try this….jpeg" class="img-desc mb-3" alt="Producto 2">
+          <div class="product-info">
+            <h5 class="nombre-producto">Frappé de Chocolate Belga</h5>
+            <div class="product-description">
+              <p>Cremoso frappé con chocolate belga, crema batida y topping de cacao</p>
+            </div>
+            <div class="price-container">
+              <span class="precio-anterior">Antes: S/ 10.00</span>
+              <span class="precio-actual">Ahora: <strong>S/ 8.00</strong></span>
+              <span class="ahorro">Ahorras S/ 2.00</span>
+            </div>
+            <button class="btn btn-cafe-enhanced">
+              <i class="fas fa-shopping-cart me-2"></i>Ordenar Ahora
+            </button>
+            <div class="product-features">
+              <span class="feature-tag"><i class="fas fa-snowflake me-1"></i>Frío</span>
+              <span class="feature-tag"><i class="fas fa-heart me-1"></i>Favorito</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="producto-descuento-enhanced">
+          <div class="badge-descuento-enhanced combo">
+            <i class="fas fa-gift"></i>
+            ¡2x1!
+          </div>
+          <img src="portada-Patrick/imagenes/dona.jpeg" class="img-desc mb-3" alt="Producto 3">
+          <div class="product-info">
+            <h5 class="nombre-producto">Donas Artesanales Rellenas</h5>
+            <div class="product-description">
+              <p>Donas caseras con relleno de manjar blanco, chocolate o mermelada</p>
+            </div>
+            <div class="price-container">
+              <span class="precio-anterior">Antes: S/ 10.00 c/u</span>
+              <span class="precio-actual"><strong>2x1</strong> por <strong>S/ 6.00</strong></span>
+              <span class="ahorro">Ahorras S/ 4.00</span>
+            </div>
+            <button class="btn btn-cafe-enhanced">
+              <i class="fas fa-shopping-cart me-2"></i>Ordenar Ahora
+            </button>
+            <div class="product-features">
+              <span class="feature-tag"><i class="fas fa-cookie-bite me-1"></i>Casero</span>
+              <span class="feature-tag"><i class="fas fa-star me-1"></i>Combo</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sección Nuestro Café mejorada -->
+  <div class="cafe-section-enhanced text-center mb-5">
+    <div class="row">
+      <div class="col-lg-10 offset-lg-1">
+        <div class="cafe-header mb-5">
+          <h2 class="section-title">
+            <i class="fas fa-seedling text-success me-2"></i>
+            El Corazón de Nuestro Café
+          </h2>
+          <p class="section-subtitle">
+            Un viaje desde las montañas andinas hasta tu taza, preservando la esencia del mejor café peruano
+          </p>
+        </div>
+        
+        <div class="row mb-5">
+          <div class="col-lg-6 mb-4">
+            <div class="cafe-story">
+              <h4 class="story-title">
+                <i class="fas fa-map-marked-alt text-warning me-2"></i>
+                Nuestra Historia
+              </h4>
+              <p class="story-text">
+                Fundada en 2020 por una familia apasionada por el café, Miski nació del sueño de compartir 
+                los sabores auténticos del Perú. Trabajamos directamente con más de 50 familias de 
+                agricultores en Cajamarca, Cusco y Amazonas, garantizando calidad y comercio justo.
+              </p>
+              <div class="story-features">
+                <div class="feature-item">
+                  <i class="fas fa-handshake"></i>
+                  <span>Comercio Justo</span>
+                </div>
+                <div class="feature-item">
+                  <i class="fas fa-recycle"></i>
+                  <span>Sostenible</span>
+                </div>
+                <div class="feature-item">
+                  <i class="fas fa-users"></i>
+                  <span>Familiar</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 mb-4">
+            <div class="cafe-process">
+              <h4 class="process-title">
+                <i class="fas fa-cogs text-primary me-2"></i>
+                Nuestro Proceso
+              </h4>
+              <div class="process-steps">
+                <div class="process-step">
+                  <div class="step-number">1</div>
+                  <div class="step-content">
+                    <h6>Selección</h6>
+                    <p>Granos selectos de altura superior</p>
+                  </div>
+                </div>
+                <div class="process-step">
+                  <div class="step-number">2</div>
+                  <div class="step-content">
+                    <h6>Tostado</h6>
+                    <p>Tostado artesanal a la perfección</p>
+                  </div>
+                </div>
+                <div class="process-step">
+                  <div class="step-number">3</div>
+                  <div class="step-content">
+                    <h6>Preparación</h6>
+                    <p>Métodos tradicionales y modernos</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="imagen-cafe-container-enhanced">
+          <img src="portada-Patrick/imagenes/Colheita de café.jpeg" class="imgfinal-enhanced" alt="Nuestro café">
+          <div class="cafe-info-enhanced">
+            <div class="cafe-stats-enhanced">
+              <div class="stat-enhanced">
+                <div class="stat-icon-enhanced">
+                  <i class="fas fa-percentage"></i>
+                </div>
+                <h4>100%</h4>
+                <p>Natural</p>
+              </div>
+              <div class="stat-enhanced">
+                <div class="stat-icon-enhanced">
+                  <i class="fas fa-award"></i>
+                </div>
+                <h4>Premium</h4>
+                <p>Calidad</p>
+              </div>
+              <div class="stat-enhanced">
+                <div class="stat-icon-enhanced">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <h4>Local</h4>
+                <p>Origen</p>
+              </div>
+              <div class="stat-enhanced">
+                <div class="stat-icon-enhanced">
+                  <i class="fas fa-leaf"></i>
+                </div>
+                <h4>Orgánico</h4>
+                <p>Certificado</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="cafe-call-to-action mt-5">
+          <h4 class="cta-title">¿Quieres conocer más sobre nuestro proceso?</h4>
+          <p class="cta-text">Visita nuestra cafetería y conoce la historia detrás de cada grano</p>
+          <div class="cta-buttons">
+            <button class="btn btn-cta-primary">
+              <i class="fas fa-play me-2"></i>Ver Video
+            </button>
+            <button class="btn btn-cta-secondary">
+              <i class="fas fa-info-circle me-2"></i>Más Información
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sección de Testimonios -->
+  <div class="testimonials-section mb-5">
+    <div class="row">
+      <div class="col-12 text-center mb-5">
+        <h2 class="section-title">
+          <i class="fas fa-quote-left text-info me-2"></i>
+          Lo Que Dicen Nuestros Clientes
+        </h2>
+        <p class="section-subtitle">Experiencias reales de quienes nos eligen cada día</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="testimonial-card">
+          <div class="testimonial-rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p class="testimonial-text">
+            "El mejor café que he probado en Lima. El ambiente es acogedor y el servicio excepcional. 
+            Mi lugar favorito para trabajar y relajarme."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">
+              <i class="fas fa-user"></i>
+            </div>
+            <div class="author-info">
+              <h6>María González</h6>
+              <span>Diseñadora Gráfica</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="testimonial-card">
+          <div class="testimonial-rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p class="testimonial-text">
+            "Increíble calidad en cada taza. Se nota que usan granos premium y el proceso artesanal 
+            hace la diferencia. Altamente recomendado."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">
+              <i class="fas fa-user"></i>
+            </div>
+            <div class="author-info">
+              <h6>Carlos Mendoza</h6>
+              <span>Ingeniero</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="testimonial-card">
+          <div class="testimonial-rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p class="testimonial-text">
+            "Las donas artesanales son espectaculares y el frappé de chocolate es mi debilidad. 
+            Un lugar que combina tradición e innovación perfectamente."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">
+              <i class="fas fa-user"></i>
+            </div>
+            <div class="author-info">
+              <h6>Ana Castillo</h6>
+              <span>Profesora</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!-- Footer Placeholder -->
+  <div id="footer-placeholder"></div>
+
+  <!-- JavaScript Dependencies -->
+  <script src="portada-Patrick/script/bootstrap_bundle_min.js"></script>
+  <script src="portada-Patrick/script/jquery-3-7-1-min.js"></script>
+  <script src="includes/includes.js"></script>
+</body>
+</html>
